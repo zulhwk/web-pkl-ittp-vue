@@ -1,0 +1,17 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37" fill="none">
+    <path d="M20 0L25.8779 11.9098L39.0211 13.8197L29.5106 23.0902L31.7557 36.1803L20 30L8.2443 36.1803L10.4894 23.0902L0.97887 13.8197L14.1221 11.9098L20 0Z" :fill="color"/>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: "IconStar",
+  props: {
+    color: {
+      type: String,
+      default: '#D9D9D9', //fill="#E88918"
+    },
+  }
+}
+</script>
